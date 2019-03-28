@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frequently Asked Questions</title>
+	<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Algreya Sans' rel='stylesheet'>
+	<style type="text/css">
+		img{
+		  position:absolute;
+		  top: 0px;
+		  left: 0px;
+	    }
+
+	    .rectangle{
+		   width: 1500px;
+		   height: 70px;
+		   background-color: #3C3FD8;
+		   position: absolute;
+		   top: 0px;
+		   left:69px;
+	    }
+
+        a{
+        	display: inline-block;
+        	font-family: 'Roboto';
+        	color: white;
+        	text-decoration: none;
+        }
+
+        .rectangle > a{
+        	position: absolute;
+        	top: 10px;
+        }
+
+        #about{
+        	font-size: 36px;
+        	position: absolute;
+        	left: 150px;
+        }
+
+        #sched{
+        	font-size: 36px;
+        	position: absolute;
+        	left: 450px;
+        }
+
+        #past{
+        	font-size: 36px;
+        	position: absolute;
+        	left: 790px;
+        }
+
+        .rectangle img{
+           position: absolute;
+           top: 10px;
+           left: 1300px;
+        }
+        
+        input{
+           display: inline-block;
+           padding: 15px 80px;
+           list-style: none;
+           font-family: 'Roboto';
+           font-size: 24px;
+        }
+
+        input.us{
+            position: absolute;
+            top: 100px;
+            left: 170px;
+        }
+
+        input.questions{
+        	position: absolute;
+        	top: 100px;
+        	left: 520px;
+        }
+
+        input.comment{
+        	position: absolute;
+        	top: 100px;
+        	left: 800px;
+        }
+
+	    .rectangle1{
+		   width: 1244px;
+		   height: 721px;
+		   border: 2px solid black;
+		   position: absolute;
+		   top: 190px;
+		   left: 160px;
+        }
+
+        h1{
+		   font-family: 'Rubik';
+		   font-size: 64px;
+		   text-align: center;
+	    }
+
+	    p{
+	    	font-family: 'Algreya Sans';
+		    position: absolute;
+		    top: 150px;
+		    left: 40px;
+		    line-height: 1.6;
+	    }
+	</style>
+</head>
+<body>
+<img src="images/websiteLogo.png" width="70" height="70"/>
+  <div class="rectangle">
+  	<a href="" id="about">About</a> 
+  	<a href="" id="sched">Schedule</a>
+  	<a href="" id="past">History</a>
+  	<img src="images/collegestudent.png" width="70" height="50">
+  </div>
+
+  <form>
+ 	<input class="us" onclick="location.href='aboutUs.html'" type="button" value="About Us" />
+ 	<input class="questions" onclick="location.href='fAQ.html'" type="button" value="FAQ" />
+ 	<input class="comment" onclick="location.href='feedback.html'" type="button" value="Feedback" />
+  </form>
+
+  <div class="rectangle1">
+  	<h1>FAQ</h1>
+  	<p><font size= 5>1) I forgot my password. What do I do? <br>
+  	&ensp;&ensp;Enter your email address or contact number and your password will be sent to you.<br>
+  	<br>
+    2) I cancelled my booking. How do I book again?<br>
+    &ensp;&ensp;Booking can only be triggered once logged in. You must logout and login once again in order to be able <br>&ensp;&ensp;to book again.<br>
+    <br>
+    3) I really need to book a seat from a shuttle that is about to depart. What can I do? <br>
+    &ensp;&ensp;You may ask the guard to force book you as long as your reason for booking is acceptable and necessary.</font>
+  </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+	<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Algreya Sans' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<style type="text/css">
+		img{
+		  position:absolute;
+		  top: 0px;
+		  left: 0px;
+	    }
+
+	    .rectangle{
+		   width: 1500px;
+		   height: 70px;
+		   background-color: #3C3FD8;
+		   position: absolute;
+		   top: 0px;
+		   left:69px;
+	    }
+
+        a{
+        	display: inline-block;
+        	font-family: 'Roboto';
+        	color: white;
+        	text-decoration: none;
+        }
+
+        .rectangle > a{
+        	position: absolute;
+        	top: 10px;
+        }
+
+        #about{
+        	font-size: 36px;
+        	position: absolute;
+        	left: 150px;
+        }
+
+        #sched{
+        	font-size: 36px;
+        	position: absolute;
+        	left: 450px;
+        }
+
+        #past{
+        	font-size: 36px;
+        	position: absolute;
+        	left: 790px;
+        }
+
+        .rectangle img{
+           position: absolute;
+           top: 10px;
+           left: 1300px;
+        }
+        
+        input{
+           display: inline-block;
+           padding: 15px 80px;
+           list-style: none;
+           font-family: 'Roboto';
+           font-size: 24px;
+        }
+
+        input.us{
+            position: absolute;
+            top: 100px;
+            left: 150px;
+        }
+
+        input.questions{
+        	position: absolute;
+        	top: 100px;
+        	left: 500px;
+        }
+
+        input.comment{
+        	position: absolute;
+        	top: 100px;
+        	left: 800px;
+        }
+
+        .rectangle1{
+		   width: 1286px;
+		   height: 740px;
+		   border: 2px solid black;
+		   position: absolute;
+		   top: 190px;
+		   left: 140px;
+        }
+
+        h1{
+		   font-family: 'Rubik';
+		   font-size: 64px;
+		   text-align: center;
+	    }   
+
+	    #usename{
+	    	font-family: 'Algreya Sans';
+	    	position: absolute;
+	    	top: 140px;
+	    	left: 90px;
+	    }   
+
+	    input.usename{
+	    	position: absolute;
+	    	top: 190px;
+	    	left: 90px;
+	    	width: 386px;
+	    	height: 30px;
+	    }  
+
+        #name{
+        	font-family: 'Algreya Sans';
+	    	position: absolute;
+	    	top: 260px;
+	    	left: 90px;
+        }
+
+        input.fName{
+        	position: absolute;
+        	top: 310px;
+        	left: 90px;
+        	width: 386px;
+        	height: 30px;
+        }
+
+        input.lName{
+        	position: absolute;
+        	top: 310px;
+        	left: 710px;
+        	width: 386px;
+        	height: 30px;
+        }
+
+        #message{
+        	font-family: 'Algreya Sans';
+	    	position: absolute;
+	    	top: 380px;
+	    	left: 90px;
+        }
+
+        textarea.msg{
+        	position: absolute;
+        	top: 430px;
+        	left: 90px;
+        }
+
+        button.submit{
+        	border: 0;
+            line-height: 3.5;
+            padding: 0 50px;
+            font-size: 1rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: rgba(220, 0, 0, 1);
+            background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+            box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+            position: absolute;
+            top: 670px;
+            left: 1120px;
+        }
+
+        button.submit:hover{
+        	background-color: rgba(255, 0, 0, 1);
+        }
+
+        button.submit:active{
+        	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+        }
+	</style>
+</head>
+<body>
+<img src="images/websiteLogo.png" width="70" height="70"/>
+  <div class="rectangle">
+  	<a href="" id="about">About</a> 
+  	<a href="" id="sched">Schedule</a>
+  	<a href="" id="past">History</a>
+  	<img src="images/collegestudent.png" width="70" height="50">
+  </div>
+  
+  <form>
+ 	<input class="us" onclick="location.href='aboutUs.html'" type="button" value="About Us" />
+ 	<input class="questions" onclick="location.href='fAQ.html'" type="button" value="FAQ" />
+ 	<input class="comment" onclick="location.href='feedback.html'" type="button" value="Feedback" />
+  </form>
+ 
+  <div class="rectangle1">
+  	<h1>Feedback</h1>
+  	<div id="usename"><font size = "6"> Username/ID Number</font></div><br>
+    <input type="text" class="usename"><br>
+    <div id="name"><font size="6">First Name &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Last Name</font></div><br>
+    <input type="text" class="fName"><input type="text" class="lName"><br>
+    <div id="message"><font size="6">Concerns/Feedback</font></div><br>
+    <textarea class="msg" cols="120" rows="15"></textarea><br>
+    <button class="submit" type="button">Submit</button>
+  </div>
+
+  
+</body>
+</html>
